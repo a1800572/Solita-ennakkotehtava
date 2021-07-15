@@ -1,0 +1,1 @@
+create table manufacturer (id varchar(255) not null, arrived varchar(255), health_care_district varchar(255), injections integer not null, order_number integer not null, responsible_person varchar(255), vaccine varchar(255), primary key (id))

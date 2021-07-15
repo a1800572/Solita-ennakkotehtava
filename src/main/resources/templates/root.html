@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Empty page</title>
+</head>
+<body>
+<h1>Hello world</h1>
+<h1 th:text="'All vaccine orders: ' + ${allorders}"></h1>
+<h1 th:text="'Vaccines used: ' + ${allusedvaccines}"></h1>
+
+<h1 th:text="'Antiqua orders/injections: ' + ${antiqua} + '/' + ${antiquainjections}"></h1>
+<h1 th:text="'Solarhuddhica orders/injections: ' + ${solarbuddhica} + '/' + ${solarbuddhicainjections}"></h1>
+<h1 th:text="'Zerpfy orders/injections: ' + ${zerpfy} + '/' + ${zerpfyinjections}"></h1>
+
+<h1 th:text="'Expired bottles before date (2021-04-12T11:10:06): ' + ${expiredbottlescount}"></h1>
+<h1 th:text="'Expired bottles during specific day (2021-04-12T11:10:06): ' + ${expiredbottlesoneday}"></h1>
+
+<h1 th:text="'Expired injections after decreasing used vaccines: ' + ${allexpiredinjections}"></h1>
+<h1 th:text="'Vaccines left for use: ' + ${allvaccinesleftforuse}"></h1>
+<h1 th:text="'Vaccines expired within 10 days: ' + ${injectionsexpiredwithin10days}"></h1>
+</body>
+</html>
