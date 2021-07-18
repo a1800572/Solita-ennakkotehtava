@@ -8,3 +8,6 @@
 [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 ## Technologies used
+
+java version 1.8
+spring boot starter version 2.5.2
