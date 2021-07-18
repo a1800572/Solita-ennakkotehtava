@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import solita.ennakko.Model.ManufacturerRepository;
 import solita.ennakko.Model.VaccineRepository;
 
@@ -15,7 +16,7 @@ public class ManufacturerController {
     @Autowired
     private VaccineRepository vrepository;
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String root(Model model){
         //tehtävänannossa määritelty päivämäärä
         String date = "2021-04-12T11:10:06";
@@ -49,6 +50,6 @@ public class ManufacturerController {
         model.addAttribute("allvaccinesleftforuse", vaccinesleftforusage);
 
         model.addAttribute("injectionsexpiredwithin10days", allvaccinesexpiredwithin10days);
-        return "root";
+        return "vaccinedata";
     }
 }
