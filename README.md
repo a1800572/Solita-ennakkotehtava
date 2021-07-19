@@ -9,6 +9,20 @@
 
 ## Technologies used
 
-java version 1.8
+java version: 1.8
 
-spring boot starter version 2.5.2
+spring-boot-starter version: 2.5.2
+
+spring-boot-starter-data-jpa version: latest
+
+spring-boot-starter-thymeleaf version: latest
+
+spring-boot-starter-web version: latest
+
+spring-boot-devtools version: latest
+
+spring-boot-starter-test version: latest
+
+h2 version: latest
+
+SQL
