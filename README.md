@@ -14,7 +14,12 @@
 ## How to run application tests
 
 1. Assuming application is running steps 1-3 from previous instructions can be skipped
-2. In the project structure navigate to the following folder
+2. In order to run controller tests in the project structure navigate to the following folder src\test\java\solita.ennakko\Controller
+3. In order to run the first test right click ManufacturerControllerSmoketest and click Run 'ManufacturerControllerSmoketest'
+4. In order to run the second test right click ManufacturerControllerTest and click Run 'ManufacturerControllerTest'
+5. In order to run repository tests in the project structure navigate to the following folder src\test\java\solita.ennakko\Repository
+6. In order to run the first test right click ManufacturerRepositoryTest and click Run 'ManufacturerRepositoryTest'
+7. In order to run the second test right click VaccineRepositoryTest and click Run 'VaccineRepositoryTest'
 
 ## Tool versions and links
 [Java -version 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
