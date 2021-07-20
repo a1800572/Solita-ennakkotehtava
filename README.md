@@ -1,5 +1,7 @@
 # Solita-ennakkotehtava
 
+Heroku application live demo: https://solita-ennakkotehtava.herokuapp.com/
+
 ## How to run application
 
 1. Clone or download application to your computer
