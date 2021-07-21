@@ -49,3 +49,5 @@ spring-boot-starter-test version: latest
 h2 version: latest
 
 SQL
+
+junit version: 4.12
